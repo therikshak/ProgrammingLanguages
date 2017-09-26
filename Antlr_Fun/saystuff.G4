@@ -11,5 +11,5 @@ BYETOK    : 'bye' | 'sayanora' ;
 ENDTOK    : 'later' ;
 VERB      : 'runs' | 'jumps' | 'climbs' | 'walks' ;
 DESCR     : 'fast' | 'high' | 'slow' | 'poorly' ;
-ID        : [a-x]+ ;
+ID        : [a-z]+ ;
 WS        : [ \t\r\n]+ -> skip ;

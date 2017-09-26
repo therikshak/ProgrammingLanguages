@@ -1,0 +1,82 @@
+Programming Languages By Decade
+
+Turing Machine -> John Neumann -> imperative/procedural languages
+
+1950s
+	Fortran (1957)
+
+	Lisp (1958)
+		comes from lambda calculus
+		many functional programming languages derive from LISP
+	Cobol (1959)
+1960s
+	Algol (1960)
+		introduced call by value and call by reference
+	-Multiprocessing was developed in 60s
+	-time-sharing allowed multiple remote users to share use of a computer
+	Basic (1964)
+		-allow students to write mainframe computer programs
+		-intended for less technical users
+		-early microsoft used basic -> now visual basic
+	B (1969)
+		-developed by bell labs
+		- operators ++, --, etc
+1970s
+	C (1972)
+		-developed by bell labs
+		-used to re-implement unix operating system
+		-high level assembly language
+		-minimal runtime support
+		-access memory efficiently
+	Smalltalk (1972)
+		-object oriented, dynamically types, reflective language
+		-created for educational use
+		-derived from simula
+	Prolog (1977)
+		-logic programming
+		-roots in first-order logic
+		-is declarative
+		-has facts and rules
+1980s
+	SQL (1983)
+		-used for managing data in a relational database management system
+		developed at IBM
+	C++ (1983)
+	Objective-C (1984)
+		-general purpose & object-oriented
+		-can compile any c program with an obejctive c compiler
+		-was maing languaged used for OSX and iOS
+		-uses message passing to object instances
+		-more dynamic than c++
+			-in simula based (C++) method name is usually bound to a section of code
+			-in smalltalk based, target of a message is resolved at runtime
+	Erlang (1986)
+		-originally a proprietary language
+	Perl (1987)
+		-general-purpose Unix scripting language for report processing
+1990s
+	Haskell (1990)
+		-effort to standardize functional languages
+		-has type inference
+		-has lazy evaluation: won't compute anything until needed
+	Python (1991)
+		-dynamic type, automatic memory management, multiple paradigms
+			-object-oriented, imperative, functional, procedural
+		-large standard library
+	Java (1995)
+		-write once, run anywhere
+			-programs compiled to bytecode
+	JavaScript (1995)
+	Ruby (1995)
+	XML (1998)
+2000s
+	R (2000)
+	C# (2000)
+	Scala (2004)
+	F# (2005)
+	Clojure (2007)
+	GO (2009)
+2010s
+	Rust (2010)
+	Elixir (2012)
+	Elm (2012)
