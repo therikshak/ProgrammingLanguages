@@ -1,0 +1,8 @@
+PERSON=1
+VERB=2
+PLACE=3
+CONJ=4
+QUERY=5
+ADJECTIVE=6
+WS=7
+'what about'=5

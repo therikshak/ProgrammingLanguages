@@ -1,0 +1,19 @@
+# Stack.py - implements a Stack Class
+# @author Erik Stryshak
+# @sid 41069864
+
+class Stack:
+	def __init__(self):
+		self.stack_container
+
+	def isEmpty(self):
+
+	def push(self, item):
+
+	def pop(self):
+
+	def peek(self):
+
+	def size(self):
+
+	def stackAsList(self):

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+	<body>
+
+		<h2>Erik Stryshak?</h2>
+		<h3>41069864</h3>
+		<h3>Javascript Facts</h3>
+
+		<p id="fact"></p>
+
+		<button onclick="showFact()">Show JS Fact</button>
+
+		<script>
+		var fact_number = 0
+		var facts = [
+			"JavaScript is NOT Java", 
+			"JavaScript is a Protype-based Object-Oriented Language", 
+			"JavaScript treats functions as first-class entities", 
+			"JavaScript is weakly typed", 
+			"JavaScript is one of three core technologies of World Wide Web content production", 
+			"Modern web browsers support JavaScript without the need for external plug-ins"
+			];
+
+		function showFact() {
+			document.getElementById("fact").innerHTML = facts[fact_number];
+			if (fact_number < (facts.length - 1)) {
+				fact_number++;
+			} else {
+				fact_number = 0;
+			}
+		}
+		</script>
+
+	</body>
+</html>
